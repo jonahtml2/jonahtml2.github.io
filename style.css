@@ -1,3 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: auto;
+}
+
+.nav {
+    background-color: #424242;
+    padding: 5px 10px;
+    color: #fafafa;
+}
+
+.nav img {
+    height: 100px;
+}
+
+.nav ul {
+    float: right;
+    padding-top: 45px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav ul li a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fafafa;
+    transition: .4s;
+}
+
+.nav ul li a:hover {
+    color: #3e7a7e;
+}
+
 .header {
     position: relative;
     width: 100%;
@@ -5,7 +51,7 @@
     background-image: url("https://i.ibb.co/jG279Y2/bgg.jpg");
     background-size: cover;
     background-position: center;
-    filter: brightness(70%); 
+    filter: brightness(70%);
 }
 
 .header .search {
@@ -15,13 +61,13 @@
     transform: translate(-50%, -50%);
     background-color: #fff;
     border-radius: 4px;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .header .search input {
     padding: 15px 10px;
     border: none;
-    width: 300px; 
+    width: 300px;
     font-size: 1.1rem;
     color: #212121;
 }
@@ -38,5 +84,14 @@
 }
 
 .header .search button:hover {
-    background-color: #d84892; /* Menyesuaikan warna hover agar sesuai */
+    background-color: #d84892;
+}
+
+.footer {
+    padding: 15px;
+    background-color: #FF69B4;
+}
+
+.footer p {
+    text-align: center;
 }
